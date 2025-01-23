@@ -170,18 +170,19 @@
             guna2HtmlLabel6.BackColor = Color.Transparent;
             guna2HtmlLabel6.Font = new Font("Arial Unicode MS", 11F, FontStyle.Underline, GraphicsUnit.Point, 0);
             guna2HtmlLabel6.ForeColor = Color.White;
-            guna2HtmlLabel6.Location = new Point(307, 594);
+            guna2HtmlLabel6.Location = new Point(331, 594);
             guna2HtmlLabel6.Name = "guna2HtmlLabel6";
             guna2HtmlLabel6.Size = new Size(102, 32);
             guna2HtmlLabel6.TabIndex = 5;
             guna2HtmlLabel6.Text = "Click Here";
+            guna2HtmlLabel6.Click += guna2HtmlLabel6_Click;
             // 
             // guna2HtmlLabel5
             // 
             guna2HtmlLabel5.BackColor = Color.Transparent;
             guna2HtmlLabel5.Font = new Font("Arial Unicode MS", 11F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel5.ForeColor = Color.White;
-            guna2HtmlLabel5.Location = new Point(71, 594);
+            guna2HtmlLabel5.Location = new Point(95, 594);
             guna2HtmlLabel5.Name = "guna2HtmlLabel5";
             guna2HtmlLabel5.Size = new Size(230, 32);
             guna2HtmlLabel5.TabIndex = 4;

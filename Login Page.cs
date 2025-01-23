@@ -6,5 +6,12 @@ namespace Final_Project
         {
             InitializeComponent();
         }
+
+        private void guna2HtmlLabel6_Click(object sender, EventArgs e)
+        {
+            Registration_Form registration_Form = new Registration_Form();
+            registration_Form.Show();
+            this.Hide();
+        }
     }
 }
