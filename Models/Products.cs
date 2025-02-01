@@ -8,13 +8,19 @@ using System.Threading.Tasks;
 
 namespace Final_Project.Models
 {
-    internal class Products
+    public class Products
     {
-        [Key]        
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ProductID { get; set; }
-        public string ProductName {  get; set; }
+        [Required]public string ProductName {  get; set; }
         [Column(TypeName = "decimal (18,0)")]
-        public decimal ProductPrice { get; set; }
-        public string ProductDescription { get; set; }  
+        [Required]public decimal ProductPrice { get; set; }
+        [Required] public string Category {  get; set; }
+        public string ProductDescription { get; set; }
+
+        // Navigation Property
+        public ICollection<OrderProduct> OrderProducts { get; set; }
+        public ICollection<Cart> Carts { get; set; }
     }
 }
