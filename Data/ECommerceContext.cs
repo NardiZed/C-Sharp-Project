@@ -19,7 +19,7 @@ namespace Final_Project.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source = Nardos - Zerihun; Initial Catalog = dbEcommerce; Integrated Security = True; Trust Server Certificate = True");
+            optionsBuilder.UseSqlServer(@"Data Source=Nardos-Zerihun;Initial Catalog=dbEcommerce;Integrated Security=True;Trust Server Certificate=True");
         }
     }
 }
