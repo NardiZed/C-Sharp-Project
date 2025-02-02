@@ -255,7 +255,7 @@
             TextBox1.Name = "TextBox1";
             TextBox1.PasswordChar = '\0';
             TextBox1.PlaceholderForeColor = Color.Gray;
-            TextBox1.PlaceholderText = "Full Name";
+            TextBox1.PlaceholderText = "UserName";
             TextBox1.SelectedText = "";
             TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges14;
             TextBox1.Size = new Size(401, 60);
