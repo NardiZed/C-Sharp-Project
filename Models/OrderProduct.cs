@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Final_Project.Models
 {
@@ -17,10 +13,11 @@ namespace Final_Project.Models
         public int OrderId { get; set; }
         public Order Order { get; set; }
 
-        [ForeignKey("Product")]
+        [ForeignKey("Products")]
         public int ProductId { get; set; }
         public Products Products { get; set; }
 
-        [Required]public int Quantity { get; set; }
+        [Required]
+        public int Quantity { get; set; }
     }
 }
