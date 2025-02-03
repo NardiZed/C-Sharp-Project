@@ -34,17 +34,17 @@ namespace Final_Project
         {
             using (var context = new ECommerceContext())
             {
-                // Find the user by username
+                
                 var user = context.Users
                     .FirstOrDefault(u => u.UserName == username);
 
                 if (user != null)
                 {
-                    // Check if the password matches
+                    
                     return user.Password == password;
                 }
 
-                return false; // User not found
+                return false; 
             }
         }
     }

@@ -227,7 +227,7 @@
             TextBox2.Location = new Point(71, 350);
             TextBox2.Margin = new Padding(4, 5, 4, 5);
             TextBox2.Name = "TextBox2";
-            TextBox2.PasswordChar = '\0';
+            TextBox2.PasswordChar = '*';
             TextBox2.PlaceholderForeColor = Color.Gray;
             TextBox2.PlaceholderText = "Password";
             TextBox2.SelectedText = "";
