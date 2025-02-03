@@ -281,6 +281,7 @@
             Controls.Add(guna2Panel2);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Login Page";
             guna2Panel2.ResumeLayout(false);
             guna2Panel2.PerformLayout();
