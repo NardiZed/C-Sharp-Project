@@ -70,7 +70,7 @@
             // 
             // guna2Panel1
             // 
-            guna2Panel1.BackColor = Color.SlateBlue;
+            guna2Panel1.BackColor = Color.DarkBlue;
             guna2Panel1.Controls.Add(label1);
             guna2Panel1.Controls.Add(pictureBox1);
             guna2Panel1.Controls.Add(guna2ControlBox2);
@@ -128,7 +128,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 14F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(76, 7);
+            label1.Location = new Point(76, 6);
             label1.Name = "label1";
             label1.Size = new Size(95, 38);
             label1.TabIndex = 3;
