@@ -51,10 +51,10 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            label1 = new Label();
+            pictureBox1 = new PictureBox();
             guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
-            pictureBox1 = new PictureBox();
-            label1 = new Label();
             flowLayoutPanel1 = new FlowLayoutPanel();
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
@@ -81,6 +81,26 @@
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges6;
             guna2Panel1.Size = new Size(1356, 55);
             guna2Panel1.TabIndex = 2;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 14F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(76, 6);
+            label1.Name = "label1";
+            label1.Size = new Size(95, 38);
+            label1.TabIndex = 3;
+            label1.Text = "Merra";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackColor = Color.White;
+            pictureBox1.Location = new Point(17, 8);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(54, 38);
+            pictureBox1.TabIndex = 2;
+            pictureBox1.TabStop = false;
             // 
             // guna2ControlBox2
             // 
@@ -114,26 +134,6 @@
             guna2ControlBox1.Size = new Size(44, 44);
             guna2ControlBox1.TabIndex = 0;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.BackColor = Color.White;
-            pictureBox1.Location = new Point(17, 8);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(54, 38);
-            pictureBox1.TabIndex = 2;
-            pictureBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 14F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(76, 6);
-            label1.Name = "label1";
-            label1.Size = new Size(95, 38);
-            label1.TabIndex = 3;
-            label1.Text = "Merra";
-            // 
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.BackColor = Color.DarkBlue;
@@ -158,6 +158,7 @@
             guna2Button1.Size = new Size(116, 38);
             guna2Button1.TabIndex = 4;
             guna2Button1.Text = "Electronics";
+            guna2Button1.Click += guna2Button1_Click;
             // 
             // guna2Button2
             // 
