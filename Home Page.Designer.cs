@@ -79,7 +79,7 @@
             guna2Panel1.Location = new Point(-5, 0);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            guna2Panel1.Size = new Size(1356, 55);
+            guna2Panel1.Size = new Size(1386, 55);
             guna2Panel1.TabIndex = 2;
             // 
             // label1
@@ -112,7 +112,7 @@
             guna2ControlBox2.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2ControlBox2.HoverState.FillColor = Color.Red;
             guna2ControlBox2.IconColor = Color.White;
-            guna2ControlBox2.Location = new Point(1271, 5);
+            guna2ControlBox2.Location = new Point(1301, 5);
             guna2ControlBox2.Name = "guna2ControlBox2";
             guna2ControlBox2.ShadowDecoration.CustomizableEdges = customizableEdges2;
             guna2ControlBox2.Size = new Size(33, 44);
@@ -128,7 +128,7 @@
             guna2ControlBox1.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2ControlBox1.HoverState.FillColor = Color.Red;
             guna2ControlBox1.IconColor = Color.White;
-            guna2ControlBox1.Location = new Point(1306, 4);
+            guna2ControlBox1.Location = new Point(1336, 4);
             guna2ControlBox1.Name = "guna2ControlBox1";
             guna2ControlBox1.ShadowDecoration.CustomizableEdges = customizableEdges4;
             guna2ControlBox1.Size = new Size(44, 44);
@@ -139,7 +139,7 @@
             flowLayoutPanel1.BackColor = Color.DarkBlue;
             flowLayoutPanel1.Location = new Point(12, 112);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(1327, 800);
+            flowLayoutPanel1.Size = new Size(1357, 800);
             flowLayoutPanel1.TabIndex = 3;
             // 
             // guna2Button1
@@ -152,7 +152,7 @@
             guna2Button1.FillColor = Color.MediumBlue;
             guna2Button1.Font = new Font("Segoe UI", 9F);
             guna2Button1.ForeColor = Color.White;
-            guna2Button1.Location = new Point(12, 64);
+            guna2Button1.Location = new Point(22, 64);
             guna2Button1.Name = "guna2Button1";
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges8;
             guna2Button1.Size = new Size(116, 38);
@@ -170,7 +170,7 @@
             guna2Button2.FillColor = Color.MediumBlue;
             guna2Button2.Font = new Font("Segoe UI", 9F);
             guna2Button2.ForeColor = Color.White;
-            guna2Button2.Location = new Point(152, 64);
+            guna2Button2.Location = new Point(166, 64);
             guna2Button2.Name = "guna2Button2";
             guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges10;
             guna2Button2.Size = new Size(116, 38);
@@ -188,7 +188,7 @@
             guna2Button3.FillColor = Color.MediumBlue;
             guna2Button3.Font = new Font("Segoe UI", 9F);
             guna2Button3.ForeColor = Color.White;
-            guna2Button3.Location = new Point(292, 64);
+            guna2Button3.Location = new Point(311, 64);
             guna2Button3.Name = "guna2Button3";
             guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges12;
             guna2Button3.Size = new Size(189, 38);
@@ -205,7 +205,7 @@
             guna2Button4.FillColor = Color.MediumBlue;
             guna2Button4.Font = new Font("Segoe UI", 9F);
             guna2Button4.ForeColor = Color.White;
-            guna2Button4.Location = new Point(504, 64);
+            guna2Button4.Location = new Point(526, 64);
             guna2Button4.Name = "guna2Button4";
             guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges14;
             guna2Button4.Size = new Size(131, 38);
@@ -222,7 +222,7 @@
             guna2Button5.FillColor = Color.MediumBlue;
             guna2Button5.Font = new Font("Segoe UI", 9F);
             guna2Button5.ForeColor = Color.White;
-            guna2Button5.Location = new Point(657, 64);
+            guna2Button5.Location = new Point(682, 64);
             guna2Button5.Name = "guna2Button5";
             guna2Button5.ShadowDecoration.CustomizableEdges = customizableEdges16;
             guna2Button5.Size = new Size(210, 38);
@@ -239,7 +239,7 @@
             guna2Button6.FillColor = Color.MediumBlue;
             guna2Button6.Font = new Font("Segoe UI", 9F);
             guna2Button6.ForeColor = Color.White;
-            guna2Button6.Location = new Point(893, 64);
+            guna2Button6.Location = new Point(918, 64);
             guna2Button6.Name = "guna2Button6";
             guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges18;
             guna2Button6.Size = new Size(131, 38);
@@ -256,7 +256,7 @@
             guna2Button7.FillColor = Color.MediumBlue;
             guna2Button7.Font = new Font("Segoe UI", 9F);
             guna2Button7.ForeColor = Color.White;
-            guna2Button7.Location = new Point(1050, 64);
+            guna2Button7.Location = new Point(1079, 64);
             guna2Button7.Name = "guna2Button7";
             guna2Button7.ShadowDecoration.CustomizableEdges = customizableEdges20;
             guna2Button7.Size = new Size(131, 38);
@@ -273,7 +273,7 @@
             guna2Button8.FillColor = Color.MediumBlue;
             guna2Button8.Font = new Font("Segoe UI", 9F);
             guna2Button8.ForeColor = Color.White;
-            guna2Button8.Location = new Point(1208, 64);
+            guna2Button8.Location = new Point(1238, 64);
             guna2Button8.Name = "guna2Button8";
             guna2Button8.ShadowDecoration.CustomizableEdges = customizableEdges22;
             guna2Button8.Size = new Size(131, 38);
@@ -286,7 +286,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
             BackColor = Color.MidnightBlue;
-            ClientSize = new Size(1350, 950);
+            ClientSize = new Size(1381, 950);
             Controls.Add(guna2Button8);
             Controls.Add(guna2Button7);
             Controls.Add(guna2Button6);
