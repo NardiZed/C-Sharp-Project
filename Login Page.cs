@@ -23,7 +23,10 @@ namespace Final_Project
         {
             if (ValidateUser(TextBox1.Text, TextBox2.Text))
             {
-                DialogResult result = MessageBox.Show("Login Successful.", "Login", MessageBoxButtons.OK);
+                Home_Page home_Page = new Home_Page();
+                this.Hide();
+                home_Page.ShowDialog();
+                this.Dispose();
             }
             else
             {
