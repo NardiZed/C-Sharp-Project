@@ -104,6 +104,7 @@ namespace Final_Project
         }
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+            flowLayoutPanel1.Controls.Clear();
             productPanels("Electronics");
         }
 
