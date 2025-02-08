@@ -25,6 +25,8 @@ namespace Final_Project.Models
 
         public byte[] Image { get; set; }
 
+        public int AmountInStock { get; set; }
+
         // Navigation Properties
         public ICollection<OrderProduct> OrderProducts { get; set; } = new List<OrderProduct>();
         public ICollection<Cart> Carts { get; set; } = new List<Cart>();
