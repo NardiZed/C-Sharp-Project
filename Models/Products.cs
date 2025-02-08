@@ -23,8 +23,6 @@ namespace Final_Project.Models
 
         public string ProductDescription { get; set; }
 
-        public Image Image { get; set; }
-
         // Navigation Properties
         public ICollection<OrderProduct> OrderProducts { get; set; } = new List<OrderProduct>();
         public ICollection<Cart> Carts { get; set; } = new List<Cart>();
