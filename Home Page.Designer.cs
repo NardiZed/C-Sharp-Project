@@ -194,6 +194,7 @@
             guna2Button3.Size = new Size(189, 38);
             guna2Button3.TabIndex = 6;
             guna2Button3.Text = "Home and Kitchen";
+            guna2Button3.Click += guna2Button3_Click;
             // 
             // guna2Button4
             // 
@@ -211,6 +212,7 @@
             guna2Button4.Size = new Size(131, 38);
             guna2Button4.TabIndex = 7;
             guna2Button4.Text = "Cosmetics";
+            guna2Button4.Click += guna2Button4_Click;
             // 
             // guna2Button5
             // 
@@ -228,6 +230,7 @@
             guna2Button5.Size = new Size(210, 38);
             guna2Button5.TabIndex = 8;
             guna2Button5.Text = "Sports and Outdoors";
+            guna2Button5.Click += guna2Button5_Click;
             // 
             // guna2Button6
             // 
@@ -245,6 +248,7 @@
             guna2Button6.Size = new Size(131, 38);
             guna2Button6.TabIndex = 9;
             guna2Button6.Text = "Automotive";
+            guna2Button6.Click += guna2Button6_Click;
             // 
             // guna2Button7
             // 
@@ -262,6 +266,7 @@
             guna2Button7.Size = new Size(131, 38);
             guna2Button7.TabIndex = 10;
             guna2Button7.Text = "Stationary";
+            guna2Button7.Click += guna2Button7_Click;
             // 
             // guna2Button8
             // 
@@ -279,6 +284,7 @@
             guna2Button8.Size = new Size(131, 38);
             guna2Button8.TabIndex = 11;
             guna2Button8.Text = "Books";
+            guna2Button8.Click += guna2Button8_Click;
             // 
             // Home_Page
             // 

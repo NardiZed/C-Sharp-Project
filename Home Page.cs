@@ -110,7 +110,44 @@ namespace Final_Project
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
+            flowLayoutPanel1.Controls.Clear();
             productPanels("Fashion");
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            flowLayoutPanel1.Controls.Clear();
+            productPanels("Home and Kitchen");
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            flowLayoutPanel1.Controls.Clear();
+            productPanels("Cosmetics");
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            flowLayoutPanel1.Controls.Clear();
+            productPanels("Sports and Outdoors");
+        }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+            flowLayoutPanel1.Controls.Clear();
+            productPanels("Automotive");
+        }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+            flowLayoutPanel1.Controls.Clear();
+            productPanels("Stationary");
+        }
+
+        private void guna2Button8_Click(object sender, EventArgs e)
+        {
+            flowLayoutPanel1.Controls.Clear();
+            productPanels("Books");
         }
     }
 }
