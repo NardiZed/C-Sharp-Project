@@ -50,6 +50,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             label1 = new Label();
             pictureBox1 = new PictureBox();
@@ -64,8 +66,10 @@
             guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
+            guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            guna2Panel2.SuspendLayout();
             SuspendLayout();
             // 
             // guna2Panel1
@@ -152,7 +156,7 @@
             guna2Button1.FillColor = Color.MediumBlue;
             guna2Button1.Font = new Font("Segoe UI", 9F);
             guna2Button1.ForeColor = Color.White;
-            guna2Button1.Location = new Point(22, 64);
+            guna2Button1.Location = new Point(21, 7);
             guna2Button1.Name = "guna2Button1";
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges8;
             guna2Button1.Size = new Size(116, 38);
@@ -170,7 +174,7 @@
             guna2Button2.FillColor = Color.MediumBlue;
             guna2Button2.Font = new Font("Segoe UI", 9F);
             guna2Button2.ForeColor = Color.White;
-            guna2Button2.Location = new Point(166, 64);
+            guna2Button2.Location = new Point(165, 7);
             guna2Button2.Name = "guna2Button2";
             guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges10;
             guna2Button2.Size = new Size(116, 38);
@@ -188,7 +192,7 @@
             guna2Button3.FillColor = Color.MediumBlue;
             guna2Button3.Font = new Font("Segoe UI", 9F);
             guna2Button3.ForeColor = Color.White;
-            guna2Button3.Location = new Point(311, 64);
+            guna2Button3.Location = new Point(310, 7);
             guna2Button3.Name = "guna2Button3";
             guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges12;
             guna2Button3.Size = new Size(189, 38);
@@ -206,7 +210,7 @@
             guna2Button4.FillColor = Color.MediumBlue;
             guna2Button4.Font = new Font("Segoe UI", 9F);
             guna2Button4.ForeColor = Color.White;
-            guna2Button4.Location = new Point(526, 64);
+            guna2Button4.Location = new Point(525, 7);
             guna2Button4.Name = "guna2Button4";
             guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges14;
             guna2Button4.Size = new Size(131, 38);
@@ -224,7 +228,7 @@
             guna2Button5.FillColor = Color.MediumBlue;
             guna2Button5.Font = new Font("Segoe UI", 9F);
             guna2Button5.ForeColor = Color.White;
-            guna2Button5.Location = new Point(682, 64);
+            guna2Button5.Location = new Point(681, 7);
             guna2Button5.Name = "guna2Button5";
             guna2Button5.ShadowDecoration.CustomizableEdges = customizableEdges16;
             guna2Button5.Size = new Size(210, 38);
@@ -242,7 +246,7 @@
             guna2Button6.FillColor = Color.MediumBlue;
             guna2Button6.Font = new Font("Segoe UI", 9F);
             guna2Button6.ForeColor = Color.White;
-            guna2Button6.Location = new Point(918, 64);
+            guna2Button6.Location = new Point(917, 7);
             guna2Button6.Name = "guna2Button6";
             guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges18;
             guna2Button6.Size = new Size(131, 38);
@@ -260,7 +264,7 @@
             guna2Button7.FillColor = Color.MediumBlue;
             guna2Button7.Font = new Font("Segoe UI", 9F);
             guna2Button7.ForeColor = Color.White;
-            guna2Button7.Location = new Point(1079, 64);
+            guna2Button7.Location = new Point(1078, 7);
             guna2Button7.Name = "guna2Button7";
             guna2Button7.ShadowDecoration.CustomizableEdges = customizableEdges20;
             guna2Button7.Size = new Size(131, 38);
@@ -286,6 +290,22 @@
             guna2Button8.Text = "Books";
             guna2Button8.Click += guna2Button8_Click;
             // 
+            // guna2Panel2
+            // 
+            guna2Panel2.Controls.Add(guna2Button7);
+            guna2Panel2.Controls.Add(guna2Button6);
+            guna2Panel2.Controls.Add(guna2Button5);
+            guna2Panel2.Controls.Add(guna2Button4);
+            guna2Panel2.Controls.Add(guna2Button3);
+            guna2Panel2.Controls.Add(guna2Button2);
+            guna2Panel2.Controls.Add(guna2Button1);
+            guna2Panel2.CustomizableEdges = customizableEdges23;
+            guna2Panel2.Location = new Point(1, 57);
+            guna2Panel2.Name = "guna2Panel2";
+            guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            guna2Panel2.Size = new Size(1380, 891);
+            guna2Panel2.TabIndex = 12;
+            // 
             // Home_Page
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -294,15 +314,9 @@
             BackColor = Color.MidnightBlue;
             ClientSize = new Size(1381, 950);
             Controls.Add(guna2Button8);
-            Controls.Add(guna2Button7);
-            Controls.Add(guna2Button6);
-            Controls.Add(guna2Button5);
-            Controls.Add(guna2Button4);
-            Controls.Add(guna2Button3);
-            Controls.Add(guna2Button2);
-            Controls.Add(guna2Button1);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(guna2Panel1);
+            Controls.Add(guna2Panel2);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Home_Page";
             StartPosition = FormStartPosition.CenterScreen;
@@ -310,6 +324,7 @@
             guna2Panel1.ResumeLayout(false);
             guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            guna2Panel2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -328,5 +343,6 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
         private Guna.UI2.WinForms.Guna2Button guna2Button7;
         private Guna.UI2.WinForms.Guna2Button guna2Button8;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
     }
 }
