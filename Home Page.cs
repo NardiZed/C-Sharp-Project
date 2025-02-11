@@ -13,6 +13,12 @@ namespace Final_Project
         {
             InitializeComponent();
             this.Load += Home_Page_Load;
+            string[] cat = { "Automotive", "Books", "Cosmetics", "Electronics", "Fashion", "Stationary" };
+            comboBox1 = new ComboBox();
+            foreach (string catName in cat)
+            {
+                comboBox1.Items.Add(catName);
+            }
         }
 
         private async void Home_Page_Load(object sender, EventArgs e)

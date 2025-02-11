@@ -43,8 +43,11 @@
             guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             flowLayoutPanel1 = new FlowLayoutPanel();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            comboBox1 = new ComboBox();
+            guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            guna2Panel2.SuspendLayout();
             SuspendLayout();
             // 
             // guna2Panel1
@@ -123,12 +126,34 @@
             // 
             // guna2Panel2
             // 
+            guna2Panel2.Controls.Add(guna2HtmlLabel1);
+            guna2Panel2.Controls.Add(comboBox1);
             guna2Panel2.CustomizableEdges = customizableEdges7;
             guna2Panel2.Location = new Point(1, 57);
             guna2Panel2.Name = "guna2Panel2";
             guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges8;
             guna2Panel2.Size = new Size(1380, 891);
             guna2Panel2.TabIndex = 12;
+            // 
+            // comboBox1
+            // 
+            comboBox1.BackColor = SystemColors.InactiveCaption;
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "Automotive", "Books", "Cosmetics", "Electronics", "Fashion", "Furniture", "Home", "Sports and Outdoors", "Stationary" });
+            comboBox1.Location = new Point(181, 11);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(269, 33);
+            comboBox1.TabIndex = 0;
+            // 
+            // guna2HtmlLabel1
+            // 
+            guna2HtmlLabel1.BackColor = Color.Transparent;
+            guna2HtmlLabel1.ForeColor = Color.White;
+            guna2HtmlLabel1.Location = new Point(20, 11);
+            guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            guna2HtmlLabel1.Size = new Size(155, 27);
+            guna2HtmlLabel1.TabIndex = 1;
+            guna2HtmlLabel1.Text = "Choose a category:";
             // 
             // Home_Page
             // 
@@ -147,6 +172,8 @@
             guna2Panel1.ResumeLayout(false);
             guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            guna2Panel2.ResumeLayout(false);
+            guna2Panel2.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -158,5 +185,7 @@
         private PictureBox pictureBox1;
         private FlowLayoutPanel flowLayoutPanel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private ComboBox comboBox1;
     }
 }
